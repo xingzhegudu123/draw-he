@@ -1,0 +1,102 @@
+
+
+/* add页面 */
+
+
+.tabs{
+   
+    height: 45px;
+    
+    display: flex;
+    box-sizing: border-box;
+    padding:0 18px;
+    border-bottom: 1px solid #ddd;
+}
+
+.tabs .tab{
+    flex: 1;
+    text-align: center;
+    line-height: 45px;
+    color: #666;
+    font-size: 14px;
+    border-left: 1px solid #ddd;
+ 
+}
+.tabs .tab:first-child{
+    border: none;
+}
+.tabs .tab.active{
+    border-bottom: 3px solid #fe6e00;
+    color:#fe6e00;
+}
+
+
+
+
+
+/* 正在热映 */
+
+.draw .draw-large{
+	 box-sizing: border-box;
+    padding:0 18px;
+}
+
+.draw .draw-large li{
+    padding:18px 0;
+    
+    border-bottom: 1px dashed #c9c9c9;
+    display: flex;   
+
+}
+
+.draw .draw-large img{
+  
+    width:20%;
+    height:80px;
+    float: left
+}
+
+/* 图片右边biv */
+.draw .draw-large li .brief{
+    width:80%;
+    /* width:200px; */
+    height:80px;
+   
+
+    box-sizing: border-box;
+    padding:5px 10px;
+
+
+
+
+}
+
+.draw .draw-large li .brief p{
+    line-height: 25px;
+   
+}
+
+/* 积分 */
+.draw-large li .brief p .mark{
+    float: right;
+    margin-right: 10px;
+    color: #fc7103;
+}
+
+
+/* 下面两个p */
+.draw-large li .brief .buy{
+    font-size: 12px;
+    color: #666;
+
+     
+}
+/* 最后一个的span */
+.draw-large li .brief .buy .buy-in1{
+    color: deepskyblue
+    
+}
+.draw-large li .brief .buy .buy-in2{
+    color: deepskyblue;
+     margin-left: 20px
+}

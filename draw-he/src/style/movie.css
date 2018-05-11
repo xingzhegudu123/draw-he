@@ -1,0 +1,77 @@
+
+/* 影院样式 */
+
+
+/* li */
+.area .area-item{
+    background: #e1e1e1;
+     border-bottom: 2px solid #f9f4f4; 
+}
+
+
+
+/* li  下p  区域标题*/
+.area .area-item .wish{
+    height:40px;
+     line-height: 40px; 
+    margin-left: 15px;
+  
+   
+    color:#888383;
+  
+ 
+}
+
+
+/* li 下的 二级ul */
+.area .area-item .movie{
+   background: #ffffff;
+ 
+
+}
+.area-item .movie li{
+    box-sizing: border-box;
+    padding:15px;
+    border-bottom: 1px solid lightgray;   
+
+}
+
+
+
+.area-item .movie li p{
+    width:80%;
+   line-height: 30px;
+
+   font-size: 12px;
+   color: lightslategray;
+
+}
+
+
+.area-item .movie li .late1{
+   width:100%;
+
+    font-size: 15px;
+    color: grey;
+
+}
+
+.area-item .movie li .late1  span{
+	float: right;
+}
+
+.area-item .movie li .late2 .coke{
+	/* display: inline-block;*/
+	padding: 2px 5px;
+	background:#51add0 ;
+	color: #fff;
+	border-radius: 5px;
+	font-size: 10px;
+	
+}
+
+/*地址*/
+.area-item .movie li .late3{
+	 height: 30px;
+	 overflow: hidden;
+}

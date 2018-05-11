@@ -1,0 +1,8 @@
+
+//配置正向代理 凡是以/v4路径开头的都会代理到https://m.maizuo.com服务器上
+  app.use('/v4',httpProxyMiddleware({
+  	target:'https://m.maizuo.com',
+  	changeOrigin:true
+  	
+  }))
+         

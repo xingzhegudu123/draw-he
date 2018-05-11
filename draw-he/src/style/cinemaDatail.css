@@ -1,0 +1,264 @@
+
+
+/*.cinema-detail{
+    width: 100%;
+   
+    position: absolute;
+    top: 50px;
+    left: 0;
+    bottom: 0;
+   height: 100%;
+   background: #fff;
+
+} */
+
+
+
+
+
+
+.img-responsive img{
+    width:100%;
+}
+
+/*第一第二个大盒子*/
+.row-detailbox{
+ box-sizing: border-box;
+  height:115px;
+  padding:25px 20px 0 10px;
+ 
+
+
+
+}
+.row-bot1{
+    width: 100%;
+    height: 100%;
+    border-bottom: 1px solid lightgrey;
+    
+}
+
+.row-bot1 span , .row-bot1 .row-center1{
+      float: left;
+
+} 
+
+.row-bot1 span{
+    margin-left: 6px;
+    margin-top: 15px;
+ 
+}
+
+
+
+
+.row-bot1 span i{
+    font-size: 30px;
+
+}
+/* iconfont颜色 */
+.row-bot1 span .ic1{
+    color: lightpink;
+}
+
+
+.row-bot1 span .ic2{
+    color: green;
+}
+
+
+.row-bot1 span .ic3{
+    color: pink;
+}
+
+
+.row-bot4 span .ic4{
+    color: royalblue;
+    font-size: 30px;
+}
+
+
+.row-bot1 span .ic5{
+    color: orange;
+}
+
+
+
+
+
+
+
+
+
+
+
+/* 中间部分 */
+.row-bot1 .row-center1 {
+  
+    margin-left: 15px;
+}
+.row-bot1 .row-center1 .seat1{
+    line-height: 40px;
+  
+}
+.row-bot1 .row-center1 .seat2{
+    font-size: 12px;
+    color: lightslategray;
+
+} 
+
+
+
+
+
+
+
+
+/*--按钮---*/
+.row-bot1 .piao{
+        width:90px;
+        height:35px;
+        float: right;
+        background:#fe8233;
+       /* border: 0;*/
+        border-radius: 12px;
+        /* padding:8px 16px; */
+        margin-top: 5px;
+        line-height: 35px;
+
+        text-align: center;   
+        color: #ebebeb;
+
+}
+
+/* 2--- */
+
+/* --------3------------ */
+
+.row-detailbox3{
+   
+    box-sizing: border-box;
+     height:97px;
+     padding:25px 20px 0 10px;
+
+   
+   
+   }
+
+
+/* 第4第5个大盒子起*/
+
+/* --4-5 */
+.row-detailbox4{
+  
+    box-sizing: border-box;
+     height:86px;
+     padding:25px 10px 0 10px;
+   
+   
+   
+   }
+
+
+.row-bot4{
+    width: 100%;
+    height: 100%;
+    border-bottom: 1px solid lightgrey;
+
+}
+
+ .row-bot4 span , .row-bot4 .row-center4{
+      float: left;
+
+} 
+
+.row-bot4 .row-center4{
+    width:80%;
+}
+
+/*第四个盒子icon图标*/
+.row-bot4 span{
+    margin-left: 6px;
+    margin-top: 2px;
+ 
+}
+.row-bot4 .row-center4 .seat4{
+    font-size: 14px;
+    margin-left: 10px;
+} 
+
+
+
+
+
+
+
+
+/*隔开div颜色*/
+.separation{
+	width: 100%;
+	height: 15px;
+	background: #e6e9eb;
+}
+
+
+
+
+
+
+
+/* 底下切换 */
+
+.park{
+  width:100%;
+ 
+  box-sizing: border-box;
+  padding:15px;
+
+
+}
+
+.park .top{
+    width:100%;
+    height: 73px;
+    border-bottom: 1px solid lightgrey;
+    display: flex;
+    justify-content: space-around;
+
+}
+.park .top span{
+      padding:7px 17px;
+        /* border: 1px solid green; */
+       text-align: center
+}
+
+
+
+
+.park .top span p{
+  
+    line-height: 25px;
+
+}
+
+/* 点击图片文本 */
+.park .top span p .ic6{
+   
+    font-size: 30px;
+}
+
+.park .top span .out{
+   
+    font-size: 14px;
+}
+
+
+
+
+
+.park .bot{
+    width:100%;
+    font-size: 12px;
+  
+}
+

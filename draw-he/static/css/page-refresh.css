@@ -1,0 +1,70 @@
+
+/*page样式  公用组件*/
+.page{
+    width: 100%;
+    position: absolute;
+    top: 50px;
+    left: 0;
+    bottom: 0;
+    overflow: hidden;
+  
+
+}
+
+.page.has-header{
+	top: 44px;
+}
+
+/*分类页面下content的定位的样式*/
+.page.has-leap{
+	top: 116px;
+}
+.page.has-break{
+	top: 76px;
+}
+
+
+
+
+.page.has-footer{
+	bottom: 49px;
+	z-index: 0;
+}
+
+
+
+/*--- 上拉下拉两部分----*/
+
+
+
+
+.up, .down{
+	height: 50px;
+	line-height: 50px;
+	text-align: center;
+	font-size: 14px;
+	background: #eeebeb;
+}
+.up:before, .down:before{
+	content: '';
+	display: inline-block;
+	width: 0;
+	height: 100%;
+	vertical-align: middle;
+}
+.up img, .down img{
+	width: 25px;
+	height: 25px;
+	display: inline-block;
+	vertical-align: middle;
+	transition: transform 200ms;
+}
+.up img{
+	transform: rotate(180deg);
+}
+.up img.active{
+	transform: rotate(0deg);
+}
+.down img.active{
+	transform: rotate(180deg);
+}

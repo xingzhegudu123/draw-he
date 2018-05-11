@@ -1,0 +1,203 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    color: #000;
+}
+
+html, body, #app{
+    width: 100%;
+    height: 100%;
+}
+
+
+/*-- 头部---*/
+.app-header{
+    width: 100%;
+    height: 49px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: #282828;
+    
+    display: flex;
+    border-bottom: 1px solid  #222222;
+    position: relative;
+}
+
+
+
+
+/* 左边菜单 */
+.app-header .mune{
+     padding: 10px 13px;
+    display: block;
+   border-right: 1px solid slategrey;
+   text-align: center;
+   
+}  
+.app-header span .tit{
+    color:lightgray;
+    font-size: 20px;  
+    
+}
+
+/* 中间显示栏 文字 */
+.app-header .title{ 
+    width:60%; 
+    margin-left: 10px;
+    font-size: 14px;
+    color: #efefef;
+    line-height: 50px;
+    font-weight: 400;
+
+}
+
+
+
+.app-header .location{
+   
+    line-height: 50px;
+    font-size: 14px;
+    color: gray;
+    margin-left: 5;
+    padding:0 5px;
+  
+
+}
+
+/* 右边用户登录 */
+.app-header .mune2{
+    position: absolute;
+    right: 0;
+    padding: 0 15px;
+   display: block; 
+   line-height: 50px;
+  text-align: center;
+  
+}   
+
+.app-header span .tit2{
+    color:lightgray;
+    font-size: 20px;  
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*----侧边栏---*/
+
+.side-wrap .side-nav{
+    width: 70%;
+    border-top: 1px solid #222;
+    position: absolute;
+    top: 50px;
+    left: 0;
+    bottom: 0;
+    background: #282828;
+    transform: translateX(-100%);
+    transition: 200ms transform;
+}
+ .side-wrap.active   .side-nav{
+    transform: translate(0);
+}
+
+
+/*灰色遮罩蒙层默认在屏幕外   点击时有active显示*/
+
+.side-wrap .cover{
+    width: 100%;
+    position: absolute;
+    top: 50px;
+    left: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0);
+    transform: translateX(-100%);
+    transition: 200ms background-color;
+}
+
+/*         点击有active时才出来      从左侧划出来并有淡入淡出效果*/
+.side-wrap.active .cover{
+    transform: translateX(0%);
+    background: rgba(0, 0, 0, 0.5);
+}
+
+
+/*-- 大的透明遮罩蒙层--*/
+.side-wrap .big-cover{
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background: transparent;
+    display: none;
+}
+.side-wrap.active .big-cover{
+    display: block;
+}
+
+
+
+/*--   侧边栏具体样式---*/
+
+.side-wrap .side-nav li{
+	 padding-left: 10px;
+}
+
+/*link*/
+.side-wrap .side-nav li a{
+    display: block;
+    height: 50px;
+    line-height: 50px;
+    width: 100%;
+    font-size: 14px;
+    color: #9a9a9a;
+    border-bottom: 1px dashed #333333;
+   
+}
+
+.side-wrap .side-nav li a span{
+	 float: right;
+	 margin-right: 20px;
+	 color: #4e4e4e;
+}
+ 
+
+
+#home{
+    background: orange;
+}
+#movies{
+     
+  background: #f9f9f9;
+   
+}
+#cinema{
+    background: #f5f6f7;
+}
+
+#cinema-detail{
+	  background: #f9f9f9;
+}

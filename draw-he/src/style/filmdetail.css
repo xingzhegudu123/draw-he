@@ -1,0 +1,75 @@
+
+.detail{
+    width: 100%;
+   
+    position: absolute;
+    top: 50px;
+    left: 0;
+    bottom: 0;
+    
+   background: #ebebeb;
+   
+ 
+}
+ /* 大div */
+.detail-film{
+   
+ 
+
+}
+
+
+/* 主要信息 */
+.introduce{
+  padding-left: 20px;
+  font-size: 14px;
+  
+
+}
+
+
+
+
+
+
+
+.detail-film .introduce p{
+    font-size: 12px;
+     line-height: 30px; 
+}
+
+.detail-film img{
+    width:100%;
+}
+
+/* 简介span */
+.detail-film    .introduce-film{
+ 
+    line-height: 50px;
+}
+.introduce-film  span{
+    width:15px;
+    height:25px;
+    background: burlywood;
+   float: left;
+   margin-top: 12px;
+   margin-right: 10px;
+}
+
+
+
+
+.ticket{
+    position: absolute;
+    padding:8px 0;
+    background:#fe8233;
+    width: 150px;
+
+    border-radius: 20px;
+    text-align: center;
+    color: #ebebeb;
+    left: 30%;
+    bottom: 20px;
+
+  
+} 
